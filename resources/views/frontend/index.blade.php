@@ -438,7 +438,7 @@
                         <div class="food-menu-card">
 
                             <div class="card-banner">
-                                <img src="./assets/images/food-menu-1.png" width="300" height="300" loading="lazy"
+                                <img src="{{asset('assets/frontend/images/food-menu-1.png')}}" width="300" height="300" loading="lazy"
                                      alt="Fried Chicken Unlimited" class="w-100">
 
                                 <div class="badge">-15%</div>
@@ -1273,7 +1273,7 @@
     <div class="footer-bottom">
         <div class="container">
             <p class="copyright-text">
-                &copy; 2022 <a href="#" class="copyright-link">codewithsadee</a> All Rights Reserved.
+                &copy; 2022 <a href="#" class="copyright-link">Unique Neupane</a> All Rights Reserved.
             </p>
         </div>
     </div>
