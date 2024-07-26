@@ -71,24 +71,22 @@
                 </div>
             </div>
         </li>
-
-        <!-- Nav Item - Utilities Collapse Menu -->
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-               aria-expanded="true" aria-controls="collapseUtilities">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo1"
+               aria-expanded="true" aria-controls="collapseTwo1">
                 <i class="fa-solid fa-tag" style="color: #FFD43B;"></i>
-                <span>Category</span>
+                <span>Food Category</span>
             </a>
-            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                 data-parent="#accordionSidebar">
+            <div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-
-                    <a class="collapse-item" href="">Create</a>
-                    <a class="collapse-item" href="">List</a>
-
+                    <h6 class="collapse-header">Food Category</h6>
+                    <a class="collapse-item" href="{{route('backend.category.create')}}">Create</a>
+                    <a class="collapse-item" href="{{route('backend.category.index')}}">List</a>
                 </div>
             </div>
         </li>
+
+
 
         <!-- Divider -->
         <hr class="sidebar-divider">
@@ -98,52 +96,50 @@
             Operation
         </div>
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-               aria-expanded="true" aria-controls="collapseUtilities">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo2"
+               aria-expanded="true" aria-controls="collapseTwo1">
                 <i class="fa-solid fa-bowl-food" style="color: #FFD43B;"></i>
                 <span>Food</span>
             </a>
-            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                 data-parent="#accordionSidebar">
+            <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-
+                    <h6 class="collapse-header">Food Category</h6>
                     <a class="collapse-item" href="">Create</a>
                     <a class="collapse-item" href="">List</a>
-
                 </div>
             </div>
-        </li><li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-               aria-expanded="true" aria-controls="collapseUtilities">
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo3"
+               aria-expanded="true" aria-controls="collapseTwo3">
                 <i class="fa-brands fa-blogger-b" style="color: #FFD43B;"></i>
                 <span>Blog</span>
             </a>
-            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                 data-parent="#accordionSidebar">
+            <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-
+                    <h6 class="collapse-header">Food Category</h6>
                     <a class="collapse-item" href="">Create</a>
                     <a class="collapse-item" href="">List</a>
-
                 </div>
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-               aria-expanded="true" aria-controls="collapseUtilities">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo4"
+               aria-expanded="true" aria-controls="collapseTwo3">
                 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                 <span>Customer Review</span>
             </a>
-            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                 data-parent="#accordionSidebar">
+            <div id="collapseTwo4" class="collapse" aria-labelledby="headingTwo4" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-
+                    <h6 class="collapse-header">Food Category</h6>
                     <a class="collapse-item" href="">Create</a>
                     <a class="collapse-item" href="">List</a>
-
                 </div>
             </div>
         </li>
+
+
         <!-- Nav Item - Charts -->
         <li class="nav-item">
             <a class="nav-link" href="charts.html">
@@ -387,10 +383,11 @@
                 </ul>
 
             </nav>
+          @yield('content')
             <!-- End of Topbar -->
 
             <!-- Begin Page Content -->
-            <div class="container-fluid">
+{{--            <div class="container-fluid">--}}
 
                 <!-- Page Heading -->
                 <h1 class="h3 mb-4 text-gray-800">Blank Page</h1>

@@ -3,4 +3,7 @@
 @section('content')
 <!-- Begin Page Content -->
 <div class="container-fluid">
+
+</div><!-- Container fluid -->
+
 @endsection
