@@ -682,7 +682,7 @@
           - #CTA
         -->
 
-        <section class="section section-divider white cta" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <section class="section section-divider white cta" style="background-image: url({{asset('assets/frontend/images/hero-bg.jpg')}})">
             <div class="container">
 
                 <div class="cta-content">

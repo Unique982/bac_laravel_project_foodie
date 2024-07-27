@@ -57,20 +57,7 @@
         </div>
 
         <!-- Nav Item - Pages Collapse Menu -->
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-               aria-expanded="true" aria-controls="collapseTwo">
-                <i class="fa-solid fa-wrench" style="color: #FFD43B;"></i>
-                <span>Setting</span>
-            </a>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Setting</h6>
-                    <a class="collapse-item" href="">Create</a>
-                    <a class="collapse-item" href="">List</a>
-                </div>
-            </div>
-        </li>
+
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo1"
                aria-expanded="true" aria-controls="collapseTwo1">
@@ -96,12 +83,12 @@
             Operation
         </div>
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo2"
-               aria-expanded="true" aria-controls="collapseTwo1">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+               aria-expanded="true" aria-controls="collapseTwo">
                 <i class="fa-solid fa-bowl-food" style="color: #FFD43B;"></i>
                 <span>Food</span>
             </a>
-            <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordionSidebar">
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Food Category</h6>
                     <a class="collapse-item" href="">Create</a>
@@ -111,12 +98,12 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo3"
-               aria-expanded="true" aria-controls="collapseTwo3">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo2"
+               aria-expanded="true" aria-controls="collapseTwo2">
                 <i class="fa-brands fa-blogger-b" style="color: #FFD43B;"></i>
                 <span>Blog</span>
             </a>
-            <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordionSidebar">
+            <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Food Category</h6>
                     <a class="collapse-item" href="">Create</a>
@@ -125,12 +112,12 @@
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo4"
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo3"
                aria-expanded="true" aria-controls="collapseTwo3">
                 <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                 <span>Customer Review</span>
             </a>
-            <div id="collapseTwo4" class="collapse" aria-labelledby="headingTwo4" data-parent="#accordionSidebar">
+            <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Food Category</h6>
                     <a class="collapse-item" href="">Create</a>
@@ -383,14 +370,15 @@
                 </ul>
 
             </nav>
-          @yield('content')
+
+
             <!-- End of Topbar -->
 
             <!-- Begin Page Content -->
-{{--            <div class="container-fluid">--}}
-
+            <div class="container-fluid">
+                @yield('content')
                 <!-- Page Heading -->
-                <h1 class="h3 mb-4 text-gray-800">Blank Page</h1>
+{{--                <h1 class="h3 mb-4 text-gray-800">Blank Page</h1>--}}
 
             </div>
             <!-- /.container-fluid -->

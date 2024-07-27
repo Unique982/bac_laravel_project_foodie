@@ -9,5 +9,5 @@ class Category extends Model
 {
     use HasFactory;
     protected $table = "categories";
-    protected $fillable = ['title','rank','icon','status','created_at','updated_at'];
+    protected $fillable = ['title','rank','icon','status','created_by','updated_by'];
 }
